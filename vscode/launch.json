@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+           
+        {
+            "name": "Python: Archivo actual",
+            "type": "python",
+            "request": "launch",
+            "program": "service\\app.py",
+            "cwd": "\\Users\\123\\Desktop\\Documentos especialización\\Clases\\Segundo Semestre\\MachineLearning2\\Despliegue\\demo",
+            "console": "integratedTerminal"
+        }
+    ]
+}
