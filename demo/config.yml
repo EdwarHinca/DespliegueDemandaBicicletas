@@ -1,0 +1,26 @@
+hyperparams:
+  extractor: {}
+  regressor:
+    n_estimators: 200
+    max_depth: 20
+
+data:
+  filepath: ./dataset.csv
+
+metrics:
+  - name: mean absolute error
+    params: {}
+
+search:
+  jobs: -1
+  grid:
+    regressor:
+      n_estimators: [200, 300, 400,500]
+      max_depth: [20, 40, 80]
+      
+
+export:
+  output_dir: ./models
+
+reports:
+  dir: ./reports
